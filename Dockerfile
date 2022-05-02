@@ -10,4 +10,4 @@ RUN cd theia \
 EXPOSE 3000
 
 COPY start.sh /app
-RUN chmod +x /app/start.sh
+CMD ./start.sh
