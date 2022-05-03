@@ -1,9 +1,6 @@
-# theia-docker
+# Theia docker
 
-```sh
-docker build --tag theia:0.0.1
-```
+## It's for Dockerizing the Theia Web IDE
 
-```sh
-docker run --name theia-nill -d -p 3000:3000 theia:0.0.1
-```
+- [Dockerfile for Clone and Full build](./cloneAndFullbuildDockerfile/)
+- [Dockerfile for builded Theia](./browserDockerfile/)
