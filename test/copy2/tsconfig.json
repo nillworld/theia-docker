@@ -1,0 +1,46 @@
+{
+  "extends": "./configs/base.tsconfig.json",
+  "include": [],
+  "compilerOptions": {
+    "composite": true,
+    "allowJs": true
+  },
+  "references": [
+    {
+      "path": "dev-packages/application-manager"
+    },
+    {
+      "path": "dev-packages/application-package"
+    },
+    {
+      "path": "dev-packages/cli"
+    },
+    {
+      "path": "dev-packages/ffmpeg"
+    },
+    {
+      "path": "dev-packages/localization-manager"
+    },
+    {
+      "path": "dev-packages/ovsx-client"
+    },
+    {
+      "path": "dev-packages/private-eslint-plugin"
+    },
+    {
+      "path": "dev-packages/private-re-exports"
+    },
+    {
+      "path": "examples/api-samples"
+    },
+    {
+      "path": "examples/browser"
+    },
+    {
+      "path": "examples/electron"
+    },
+    {
+      "path": "examples/playwright"
+    }
+  ]
+}

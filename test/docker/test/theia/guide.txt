@@ -1,0 +1,23 @@
+1. theia 빌드
+
+git clone https://github.com/eclipse-theia/theia.git
+ && cd theia \
+ && yarn \
+ && yarn download:plugins \
+ && yarn browser build \
+
+
+
+2. 몇몇 파일/폴더 복사
+
+package.json, yarn.lock, tsfmt.json, plugins, dev-packages, examples, scripts
+복붙
+
+
+3. 붙여넣기 한 디렉토리에서 빌드 후 실행
+
+yarn
+yarn start
+
+
+* 이 압축 파일에서는 3번만 하면 됨.

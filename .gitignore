@@ -1,6 +1,3 @@
-3month-ago/
-theia-on-kubernetes/
-
 # theia ignore
 .DS_Store
 node_modules
