@@ -3,7 +3,6 @@ FROM node:${NODE_VERSION}-alpine
 RUN apk add --no-cache make pkgconfig gcc g++ python3 libx11-dev libxkbfile-dev libsecret-dev
 WORKDIR /home/theia
 ADD package.json ./package.json
-ARG GITHUB_TOKEN
 RUN yarn --pure-lockfile && \
     NODE_OPTIONS="--max_old_space_size=4096" yarn theia build && \
     yarn theia download:plugins && \
