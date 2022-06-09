@@ -1,6 +1,6 @@
 # @theia/cli를 이용한 빌드
 
-1. theia-cli install
+1. ~~theia-cli install~~ ( 아래 2.과 같이 package.json 파일만 있으면 됨)
 
    ```sh
    yarn add @theia/cli@next --dev
